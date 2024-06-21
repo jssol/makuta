@@ -2,7 +2,7 @@ const RightSidebar = ({ user, transactions, banks}: RightSidebarProps) => {
   return (
     <aside className="right-sidebar">
       <section className="flex flex-col pb-8">
-        <div className="profile" />
+        <div className="profile-banner" />
         <div className="profile">
           <div className="profile-img">
             <span className="text-5xl font-bold text-blue-500">
@@ -10,7 +10,7 @@ const RightSidebar = ({ user, transactions, banks}: RightSidebarProps) => {
             </span>
           </div>
 
-          <div className="profile">
+          <div className="profile-details">
             <h1 className="profile-name">
               {user.firstName} {user.lastName}
             </h1>

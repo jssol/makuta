@@ -4,7 +4,7 @@ import TotalBalanceBox from '../../components/TotalBalanceBox';
 import RightSidebar from '@/components/RightSidebar';
 
 const Home = () => {
-  const loggedIn = { firstName: "Jonathan", lastName: "Sivahera", email: "contact@" };
+  const loggedIn = { firstName: "Jonathan", lastName: "Sivahera", email: "contact@gmail.com" };
 
   return (
     <section className="home">
