@@ -39,6 +39,7 @@ const AuthForm = ({ type }: { type: string }) => {
             </p>
           </div>
       </header>
+      {}
     </section>
   );
 };
