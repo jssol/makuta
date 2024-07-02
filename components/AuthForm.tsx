@@ -39,7 +39,15 @@ const AuthForm = ({ type }: { type: string }) => {
             </p>
           </div>
       </header>
-      {}
+      {user ? (
+        <div className="flex fle-col gap-4">
+          {/* PlaidLink */}
+        </div>
+      ) : (
+        <>
+          FORM
+        </>
+      )}
     </section>
   );
 };
