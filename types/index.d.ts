@@ -1,4 +1,3 @@
-import CustomInput from '../components/CustomInput';
 /* eslint-disable no-unused-vars */
 
 declare type SearchParamProps = {
@@ -288,14 +287,6 @@ declare interface CreateTransactionProps {
   receiverBankId: string;
   email: string;
 }
-
-declare interface CustomInputProps {
-  control: any;
-  label: string;
-  type: string;
-  name: string;
-}
-
 declare interface getTransactionsByBankIdProps {
   bankId: string;
 }
