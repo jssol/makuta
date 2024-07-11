@@ -13,7 +13,7 @@
   </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 <a name="table">Contents</a>
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
@@ -26,7 +26,7 @@ Makuta is a financial SaaS platform that connects to multiple bank accounts, dis
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">⚙️ Stack</a>
 
 - Next.js
 - TypeScript
