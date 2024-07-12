@@ -2,7 +2,7 @@
 import { Client, Account, Databases, Users } from "node-appwrite";
 import { cookies } from "next/headers";
 
-export async function createSessionClient() {
+export const createSessionClient = async () => {
   const client = new Client()
     .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT!)
     .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT!);
@@ -20,9 +20,9 @@ export async function createSessionClient() {
       return new Account(client);
     },
   };
-}
+};
 
-export async function createAdminClient() {
+export const createAdminClient = async () => {
   const client = new Client()
     .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT!)
     .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT!)
@@ -39,4 +39,4 @@ export async function createAdminClient() {
       return new Users(client);
     },
   };
-}
+};
