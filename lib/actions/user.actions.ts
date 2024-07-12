@@ -64,16 +64,16 @@ export const getLoggedInUser = async () => {
   }
 };
 
-// export const logoutAccount = async () => {
-//   try {
-//     const { account } = await createSessionClient();
+export const logoutAccount = async () => {
+  try {
+    const { account } = await createSessionClient();
 
-//     cookies().delete("appwrite-session");
+    cookies().delete("appwrite-session");
 
-//     const loggedOut = await account.deleteSession("current");
+    const loggedOut = await account.deleteSession("current");
 
-//     if(loggedOut) return true;
-//   } catch(error) {
-//     console.log("Error:", error);
-//   }
-// };
+    if(loggedOut) return true;
+  } catch(error) {
+    console.log("Error:", error);
+  }
+};
