@@ -69,10 +69,7 @@ export const logoutAccount = async () => {
     const { account } = await createSessionClient();
 
     cookies().delete("appwrite-session");
-
-    const loggedOut = await account.deleteSession("current");
-
-    if(loggedOut) return true;
+    await account.deleteSession("current");
   } catch(error) {
     console.log("Error:", error);
   }
