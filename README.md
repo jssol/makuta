@@ -120,4 +120,4 @@ DWOLLA_ENV=sandbox
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
