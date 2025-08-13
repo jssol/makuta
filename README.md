@@ -71,6 +71,13 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
+#### Test Live
+
+- Go to [https://makuta-three.vercel.app/](https://makuta-three.vercel.app/)
+- Log in using:
+  - Username: <odaluff@mail.com>
+  - Password: qwertyuiop
+
 #### Cloning the Repository
 
 ```bash
